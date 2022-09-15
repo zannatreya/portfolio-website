@@ -1,5 +1,5 @@
 import React from 'react';
-// import Projects from '../Projects/Projects';
+import Projects from '../Projects/Projects';
 import ContactMe from '../ContactMe';
 import Banner from './Banner';
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <Banner />
             <div className='bg-secondary'>
-                {/* <Projects /> */}
+                <Projects />
             </div>
             <ContactMe />
         </div>

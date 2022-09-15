@@ -1,11 +1,28 @@
 [
 {
-    "name": "Laptop Stock",
-    "thumbnail": "/project-thumbnails/laptop-stock.png",
-    "img":"https://i.ibb.co/gP4X1m0/Laptop-Stock.png",
+    "name": "Computer Parts",
+    "thumbnail": "/assets/project-1/image-1.PNG",
+    "img":"/assets/project-1/image-1.PNG",
     "id": "project1",
-    "liveLink": "https://laptop-stock-new.web.app/",
-    "githubClient": "https://github.com/mahfuzswaron/laptop-stock-react",
+    "liveLink": "https://manufacturer-website-57646.web.app/",
+    "githubClient": "https://github.com/zannatreya/manufacturer-client-side",
+    "description": "This is a manufacturer's company website. its purpose is to display products and let the users place orders, manage their orders, and add reviews. users can also update their profiles. An admin can ship the orders, and manage products. They can also make a user admin",
+    "technologies": [
+        "React", "React-Router","Firebase", "Tailwind", "DaisyUI" , "Heroku" 
+    ],
+    "features": [
+        "Google and Email/password-based authentication system",
+        "Protected routes for admin and user",
+        "CRUD operations"
+    ]
+},
+{
+    "name": "Fruits Lab",
+    "thumbnail": "/assets/project-2/image.PNG",
+    "img":"/assets/project-2/image.PNG",
+    "id": "project2",
+    "liveLink": "https://warehouse-management-8028c.web.app/",
+    "githubClient": "https://github.com/zannatreya/warehouse-management-client-side",
     "description": "A warehouse mangement full-stack application. Its purpose is managing inventories and their quantities. You can add and remove an inventory. ",
     "technologies": ["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MongoDB"],
     "features": [
@@ -19,54 +36,37 @@
 
 },
 {
-    "name": "CAR PARTS",
-    "thumbnail": "/project-thumbnails/car-parts.png",
-    "img":"https://i.ibb.co/VtQq0Dk/CAR-PARTS.png",
-    "id": "project2",
-    "liveLink": "https://car-parts-6b723.web.app/",
-    "githubClient": "https://github.com/mahfuzswaron/car-parts",
-    "description": "This is a manufacturer's company website. its purpose is to display products and let the users place orders, manage their orders, and add reviews. users can also update their profiles. An admin can ship the orders, and manage products. They can also make a user admin",
-    "technologies": [
-        "React", "React-Router","Firebase", "Tailwind", "DaisyUI" , "Heroku" 
-    ],
-    "features": [
-        "Google and Email/password-based authentication system",
-        "Protected routes for admin and user",
-        "CRUD operations"
-    ]
-
-},
-{
-    "name": "Shop Arena",
-    "thumbnail": "/project-thumbnails/shops-arena.png",
-    "img":"https://i.ibb.co/h70z4F2/SHOP-LIST.png",
+    "name": "Doctorolla",
+    "thumbnail": "/assets/project-3/image.PNG",
+    "img":"/assets/project-3/image.PNG",
     "id": "project3",
-    "liveLink": "https://shop-list-redux.netlify.app/",
-    "githubClient": "https://github.com/mahfuzswaron/shop-list",
-    "description": "Shop Arena is a shop list management web application. You can add, edit and delete a shop and filter the shops by category, location, and availability.",
+    "liveLink": "https://individual-service-provider.web.app/",
+    "githubClient": "https://github.com/zannatreya/independent-service-provider",
+    "description": "A simple front-end project to add and manage services website.It has a landing page. Users can see their Blogs.",
     "technologies": [
-        "React", "React-Router","Redux", "Tailwind", "React-Bootstrap"
+        "React", "React-Router","react-firebase-hooks", "Bootstrap"
     ],
     "features": [
-        "CRUD operations",
-        "Filter options",
-        "Cool animation"
+        "Firebase Authentication",
+        " Management of orders"
+        
     ]
 
 },
 {
-    "name": "Tasks Manager",
-    "thumbnail": "/project-thumbnails/Tasks-manager.png",
-    "img":"https://i.ibb.co/NpkMV58/Tasks-Manager.png",
+    "name": "Shohoj Pay",
+    "thumbnail": "/assets/project-4/image-1.PNG",
+    "img":"/assets/project-4/image-1.PNG",
     "id": "project4",
-    "liveLink": "https://tasks-manager-web-app.netlify.app/",
-    "githubClient": "https://github.com/mahfuzswaron/tasks-manager",
-    "description": "This is a task management application. You can list your tasks here and you may edit them also. Once the task is finished simply click on the radio button, it will replaced to completed tasks page. You can see the calendar in the Calendar page.",
-    "technologies":["React", "React-Router", "Tailwind", "DaisyUI", "MongoDB" , "Express.js" ],
+    "liveLink": "https://shohoj-pay-app.web.app/",
+    "githubClient": "https://github.com/shahadat2772/shohoj-pay-client",
+    "description": "It is F-Commerces related website like Bkash, Nagad, or Payoneer.Two types of users, personal and merchant. This website has an admin panel. ",
+    "technologies":["React", "React-Router", "Tailwind CSS", "DaisyUI", "MongoDB" , "Express.js","Stripe js","React-Redux","JWT token","React Hook Form" ,"React messenger-customer-chat","Socket.IO","Email JS","Recharts","React spinners"],
     "features": [
-        "Create, Read and Update Data",
-        "Delete Data (Upcoming)",
-        "See Calendar"
+        "Admin can manage all personal and merchant users.",
+        "All APIs of the website are secured by jwt token.",
+        "ADMIN-ACCESS: Email=: admin@gmail.com Password=: 123456"
+        
     ]
 }
 ]
