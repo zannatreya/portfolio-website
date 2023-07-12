@@ -1,26 +1,20 @@
 import { Route, Routes } from "react-router-dom";
-import About from "./components/About";
-import Blogs from "./components/Blogs";
-import ContactMe from "./components/ContactMe";
+import Blogs from "./Pages/Blogs/Blogs";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import ProjectDetails from "./components/Projects/ProjectDetails";
-import Projects from "./components/Projects/Projects";
+import Home from "./Pages/Home/Home";
+import Details from "./Pages/Home/Details";
 
 function App() {
   return (
     <div>
-     <Header/>
-     <Routes>
-        <Route path='/' element={<Home></Home>} ></Route>
-        <Route path='/home' element={<Home></Home>} ></Route>
-        <Route path='/projects' element={<Projects />} ></Route>
-        <Route path='/projects/:id' element={<ProjectDetails></ProjectDetails>}></Route>
-        <Route path='/contact' element={<ContactMe></ContactMe>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-      </Routes>     <Footer/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/details/:id" element={<Details />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

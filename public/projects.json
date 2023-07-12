@@ -1,0 +1,161 @@
+[
+   
+    {
+        "id": 1,
+        "name": "CARTS",
+        "description": "A full-stack responsive project for Car Parts Manufacturer",
+        "img": "https://i.ibb.co/QKBKDWY/CARTS.png",
+        "mockup": "https://i.ibb.co/fkj4Lnq/mockup.png",
+        "link": "https://car-parts-51bde.web.app/",
+        "clientSiteLink": "https://github.com/zannatreya/cars-portal-client",
+        "serverSiteLink": "https://github.com/zannatreya/cars-portal-server",
+        "Technologies": [
+            "ReactJs",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB",
+            "Firebase",
+            "Stripe",
+            "JWT",
+            "Tailwind CSS",
+            "React Query",
+            "React Hook Form"
+        ],
+        "about": [
+            "Implemented Card Payment Method, Email Notification and stored all data at MongoDB",
+            "Developed an Admin portal to manage all orders, all products, add products, and make an admin",
+            "Developed a User portal to manage their profile, orders, and make payments",
+            "Admin Credentials will be found in the README.me file on the Client Site Github link",
+            "In Home route you will get the overview about our site. You wil find total Eight sections there. Header, Banner (where Title, Image, Description, Price and one Button included), Available Parts (user will find first 6 parts here and also user can purchase any parts from here), Our Business Summary (user will see the business summary here), Upcoming Arrival (user will see the upcoming parts here and also can prebook), What our Customers say (user will see the customers reviews here), Our Latest Blogs (user will see the latest blog here) and Footer"
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/QKBKDWY/CARTS.png"
+            },
+            {
+                "name": "Business Summary",
+                "img": "https://i.ibb.co/wWk96nm/business-summary.png"
+            },
+            {
+                "name": "Upcoming Arrival",
+                "img": "https://i.ibb.co/m8jLSz1/upcoming-arrival.png"
+            },
+            {
+                "name": "Make Payment",
+                "img": "https://i.ibb.co/8MvkMPg/make-payment.png"
+            },
+            {
+                "name": "My Orders Dashboard",
+                "img": "https://i.ibb.co/prF5L5M/dashboard-my-orders.png"
+            },
+            {
+                "name": "Manage All Orders",
+                "img": "https://i.ibb.co/H7vWvtz/manage-all-orders.png"
+            },
+            {
+                "name": "Full Page",
+                "img": "https://i.ibb.co/F7zwPn5/full-page.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Auto Ment",
+        "description": "A full-stack responsive project for Car Dealers to manage stocks",
+        "img": "https://i.ibb.co/0MJPGB5/AutoMent.png",
+        "mockup": "https://i.ibb.co/StvTKcT/mockup.png",
+        "link": "https://inventory-management-b5c59.web.app/",
+        "clientSiteLink": "https://github.com/zannatreya/inventory-management-client",
+        "serverSiteLink": "https://github.com/zannatreya/inventory-management-server",
+        "Technologies": [
+            "ReactJs",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB",
+            "Firebase",
+            "JWT",
+            "Tailwind CSS",
+            "React Hook Form"
+        ],
+        "about": [
+            "Landing page designed for showcasing and updating new inventories",
+            "Developed a User portal for managing, updating, and adding Inventories",
+            "Stored data at MongoDB",
+            "In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer"
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/0MJPGB5/AutoMent.png"
+            },
+            {
+                "name": "Most Popular Car",
+                "img": "https://i.ibb.co/6JRFbXH/most-popular-car.png"
+            },
+            {
+                "name": "Manage All Inventories",
+                "img": "https://i.ibb.co/F0hqjXF/manage-all-inventories.png"
+            },
+            {
+                "name": "Blogs",
+                "img": "https://i.ibb.co/nLdMgGP/blogs.png"
+            },
+            {
+                "name": "My Inventory",
+                "img": "https://i.ibb.co/2hnQPxP/my-inventory.png"
+            },
+            {
+                "name": "Add One Inventory",
+                "img": "https://i.ibb.co/wwqMGsD/add-one-inventory.png"
+            },
+            {
+                "name": "Full Page",
+                "img": "https://i.ibb.co/yk8frBP/full-page.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Quick-Learning",
+        "description": "A full stack mobile responsive project for different programming course",
+        "img": "https://i.ibb.co/yfqGkPZ/Capture.png",
+        "mockup": "https://i.ibb.co/yfqGkPZ/Capture.png",
+        "link": "https://learning-website-37009.web.app/",
+        "clientSiteLink": "https://github.com/zannatreya/learning-website-client",
+        "serverSiteLink": "https://github.com/zannatreya/learning-website-server",
+        "Technologies": [
+            "ReactJs",
+            "NodeJs",
+            "ExpressJs",
+            "Firebase",
+            "ContextAPI",
+            "Tailwind CSS",
+            "React Hook Form"
+        ],
+        "about": [
+            "Executed ContextAPI to avoid prop-drilling.",
+            "Show different course details in dashboard "
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/yfqGkPZ/Capture.png"
+            },
+            {
+                "name": "Different Course",
+                "img": "https://i.ibb.co/sp71d35/course.png"
+            },
+            {
+                "name": "Dashboard",
+                "img": "https://i.ibb.co/1XtV4wL/dashboard.png"
+            },
+            {
+                "name": "Payment",
+                "img": "https://i.ibb.co/bPdcLrs/course-payment.png"
+            }
+        
+        ]
+    }
+   
+]
